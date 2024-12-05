@@ -1,0 +1,36 @@
+body{
+height: 100%;
+margin: 0;
+}  
+#app{
+display: flex;
+width: 100%;
+height: 100vh;
+}
+#right-side, #left-side {
+flex: 1; 
+padding: 10px;
+box-sizing: border-box;
+}
+#wrapper{
+display: flex;
+width: 100%;
+height: 100vh;
+flex-wrap: wrap;
+}
+#photo-post{
+border-style: solid;
+height: 400px;
+width: 220px;
+padding: 20px;
+margin: 10px;    
+}
+button:focus{
+background-color: blue;
+}
+button{
+padding: 5px;
+}
+#errormessage{
+background-color: #ffc6c4;
+}
